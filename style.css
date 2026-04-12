@@ -62,7 +62,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('imagebanner.png,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23e3f2fd" width="1200" height="800"/><path fill="%234197f3" opacity="0.3" d="M0 400Q300 200 600 400T1200 400V800H0z"/><circle fill="%23bbdefb" cx="300" cy="200" r="100"/><circle fill="%2397c1e6" cx="900" cy="150" r="80"/></svg>');
+                url('imagebanner.png');
     /* REPLACE THIS URL with your custom banner image: url('imagebanner.png') */
     background-size: cover;
     background-position: center;
@@ -139,19 +139,19 @@ body {
 .property-image:nth-child(1) {
     background-image:
         linear-gradient(45deg, #667eea 0%, #764ba2 100%),
-         url('imagesproperty1.jpg.png');
+         url('imagesproperty1.png');
 }
 
 .property-image:nth-child(2) {
     background-image:
         linear-gradient(45deg, #f093fb 0%, #f5576c 100%),
-        url('imagesproperty2.jpg.png');
+        url('imagesproperty2.png');
 }
 
 .property-image:nth-child(3) {
     background-image: 
         linear-gradient(45deg, #4facfe 0%, #00f2fe 100%),
-         url('imagesproperty3.jpg.png');
+         url('imagesproperty3.png');
 }
 .property-content {
     padding: 2rem;
