@@ -136,21 +136,21 @@ body {
     position: relative;
 }
 
-.property-image:nth-child(1) {
+.property-card:nth-child(1) .property-image {
     background-image:
-        linear-gradient(45deg, #667eea 0%, #764ba2 100%),
+        linear-gradient(rgba(102,126,234,0.5), rgba(118,75,162,0.5)),
          url('imagesproperty1.png');
 }
 
-.property-image:nth-child(2) {
+.property-card:nth-child(2) .property-image {
     background-image:
-        linear-gradient(45deg, #f093fb 0%, #f5576c 100%),
+        linear-gradient(rgba(240,147,251,0.5), rgba(245,87,108,0.5)),
         url('imagesproperty2.png');
 }
 
-.property-image:nth-child(3) {
+.property-card:nth-child(3) .property-image {
     background-image: 
-        linear-gradient(45deg, #4facfe 0%, #00f2fe 100%),
+        linear-gradient(rgba(79,172,254,0.5), rgba(0,242,254,0.5)),
          url('imagesproperty3.png');
 }
 .property-content {
@@ -218,6 +218,7 @@ body {
     padding: 3rem 2rem;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .contact-item h3 {
@@ -230,6 +231,8 @@ body {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .whatsapp-btn {
